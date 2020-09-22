@@ -1,3 +1,3 @@
-FROM nginx:1.13.1-alpine
+FROM nginx:1.18.0-alpine
 
 ADD default.conf /etc/nginx/conf.d/
